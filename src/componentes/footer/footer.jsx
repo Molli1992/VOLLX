@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Logo from "../../imagenes/logo-blanco-removebg-preview.png";
 import "./footer.css";
 
