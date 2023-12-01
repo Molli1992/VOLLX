@@ -6,20 +6,24 @@ function Inicio() {
   const [sliderInicio, setSliderInicio] = useState(1);
 
   const onClickAumentarSlider = () => {
+    var suma;
+
     if (sliderInicio === 4) {
-      var suma = 1;
+      suma = 1;
     } else {
-      var suma = sliderInicio + 1;
+      suma = sliderInicio + 1;
     }
 
     setSliderInicio(suma);
   };
 
   const onClickRestarSlider = () => {
+    var resta
+
     if (sliderInicio === 1) {
-      var resta = 4;
+      resta = 4;
     } else {
-      var resta = sliderInicio - 1;
+      resta = sliderInicio - 1;
     }
 
     setSliderInicio(resta);
