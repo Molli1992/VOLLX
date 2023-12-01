@@ -4,6 +4,8 @@ import "./App.css";
 import Header from "./componentes/header/header";
 import Footer from "./componentes/footer/footer";
 import Inicio from "./componentes/inicio/inicio";
+import Contacto from "./componentes/contacto/contacto";
+import Nosotros from "./componentes/nosotros/nosotros";
 import "@fontsource/poppins";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Inicio />} />
+          <Route path="/contact" element={<Contacto />} />
+          <Route path="/us" element={<Nosotros />} />
         </Routes>
 
         <Footer />

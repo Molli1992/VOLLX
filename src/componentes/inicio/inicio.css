@@ -1,0 +1,150 @@
+.body-inicio {
+  width: 100%;
+  display: block;
+}
+
+/* ----------------------------- Container inicio 1 --------------------------------------------------*/
+
+.container-inicio-1 {
+  width: 100%;
+  height: 80vh;
+  background-image: url("https://previews.123rf.com/images/virtosmedia/virtosmedia2302/virtosmedia230255134/198884937-representaci%C3%B3n-3d-de-gr%C3%A1fico-financiero-abstracto-sobre-fondo-oscuro-concepto-de-finanzas-y.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0px 45px;
+}
+
+.container-inicio-1 h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.button-top {
+  position: absolute;
+  top: 70%;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+.button-top:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+}
+
+/* ----------------------------- Container inicio 2 --------------------------------------------------*/
+
+.container-inicio-2 {
+  width: 100%;
+  min-height: 80vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0px;
+  background-color: #f2f2f2;
+}
+
+.container-inicio-2 h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.container-inicio-2 p {
+  font-size: 18px;
+  color: #000000;
+  width: 100%;
+  padding: 0px 15px;
+  margin-bottom: 20px;
+}
+
+/* ----------------------------- Container inicio 3 --------------------------------------------------*/
+
+.container-inicio-3 {
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+.card-inicio-3 {
+  width: 90%;
+  display: block;
+  text-align: center;
+}
+
+.card-inicio-3 img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.card-inicio-3 p {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 30px 0px;
+}
+
+.card-inicio-3 h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 10px 0px;
+}
+
+.container-arrows-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+  height: 100px;
+}
+
+.container-arrows-card svg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.container-arrows-card svg:hover {
+  width: 40px;
+  height: 40px;
+}
+
+/* ----------------------------- Responsive ----------------------------------------------------------*/
+
+@media (max-width: 850px) {
+  .container-inicio-1 h1 {
+    width: 75%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-inicio-1 {
+    padding: 0px 15px;
+  }
+
+  .container-inicio-1 h1 {
+    width: 90%;
+  }
+
+  .card-inicio-3 h1 {
+    font-size: 40px;
+  }
+}
