@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Contacto from "../contacto/contacto";
+import { useNavigate } from "react-router-dom";
 import "./inicio.css";
 
 function Inicio() {
@@ -29,6 +30,13 @@ function Inicio() {
     setSliderInicio(resta);
   };
 
+  const history = useNavigate();
+
+  const routeContactOnClick = () => {
+    history("/contact");
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="body-inicio">
       <div className="container-inicio-1">
@@ -37,7 +45,7 @@ function Inicio() {
           More...
         </h1>
 
-        <button className="button-top">Contat Us</button>
+        <button className="button-top" onClick={routeContactOnClick}>Contat Us</button>
       </div>
 
       <div className="container-inicio-2">
