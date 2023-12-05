@@ -6,6 +6,7 @@ import Footer from "./componentes/footer/footer";
 import Inicio from "./componentes/inicio/inicio";
 import Contacto from "./componentes/contacto/contacto";
 import Nosotros from "./componentes/nosotros/nosotros";
+import Carrer from "./componentes/carrer/carrer";
 import "@fontsource/poppins";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/contact" element={<Contacto />} />
           <Route path="/us" element={<Nosotros />} />
+          <Route path="/carrer" element={<Carrer />} />
         </Routes>
 
         <Footer />
