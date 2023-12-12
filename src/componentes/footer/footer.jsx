@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../imagenes/logo-blanco-removebg-preview.png";
+import Logo from "../../imagenes/logo-Vollx-removebg-preview.png";
 import "./footer.css";
 
 function Footer() {

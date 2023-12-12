@@ -6,7 +6,7 @@ function Nosotros() {
   return (
     <div className="body-nosotros">
       <div className="contrainer-nosotros-1">
-        <h1>About Gatlings</h1>
+        <h1>About Vollx</h1>
         <p>More than 10 years in the market</p>
       </div>
 
@@ -14,7 +14,7 @@ function Nosotros() {
         <h1>About us</h1>
 
         <p>
-          At Gatlings, we are the architects of success in the realm of business
+          At Vollx, we are the architects of success in the realm of business
           consultancy. With a focus on strategic management, insightful market
           analysis, and innovative solutions, we pave the way for businesses to
           thrive in a competitive landscape.
@@ -44,14 +44,14 @@ function Nosotros() {
 
       <div className="container-nosotros-3">
 
-        <h1>What is Gatlings?</h1>
+        <h1>What is Vollx?</h1>
 
         <div className="container-nosotors-card">
           <div className="card-nostros">
             <h2>Trust in Our Expertise</h2>
 
             <p>
-              At Gatlings, trust is the cornerstone of our relationship with
+              At Vollx, trust is the cornerstone of our relationship with
               every client. With years of experience in the realm of business
               consultancy, our team stands as a beacon of reliability and
               expertise.

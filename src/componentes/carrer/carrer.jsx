@@ -137,19 +137,19 @@ function Carrer() {
         {sliderInicio === 1 ? (
           <div className="card-inicio-3">
             <img
-              src="https://dibujosycolores.com/letras/letra-g/letra-g-1.jpg"
+              src="https://i.pinimg.com/originals/dc/7a/58/dc7a58b880a89f2698536a2d3132ec59.jpg"
               alt="imagen-card"
             />
 
             <p>
-              In the dynamic landscape of corporate endeavors, Gatlings stands
+              In the dynamic landscape of corporate endeavors, Vollx stands
               tall as a beacon of innovation and strategic acumen. Established
               with a steadfast commitment to revolutionize business practices,
-              Gatlings has emerged as a trailblazer in providing comprehensive
+              Vollx has emerged as a trailblazer in providing comprehensive
               solutions across diverse domains of corporate functionality.
             </p>
 
-            <h1>Gantlings</h1>
+            <h1>Vollx</h1>
 
             <div className="container-arrows-card">
               <svg
@@ -189,11 +189,11 @@ function Carrer() {
             />
 
             <p>
-              At Gatlings, the ethos revolves around transcending conventional
+              At Vollx, the ethos revolves around transcending conventional
               boundaries, embracing challenges, and engineering bespoke
               strategies that resonate with unparalleled success. With a proven
               track record in navigating the complexities of modern business
-              environments, Gatlings has consistently delivered transformative
+              environments, Vollx has consistently delivered transformative
               outcomes for its clientele.
             </p>
 
@@ -234,11 +234,11 @@ function Carrer() {
             <img src="https://i.imgur.com/TU6unql.jpg" alt="imagen-card" />
 
             <p>
-              The cornerstone of Gatlings' proficiency lies in its multifaceted
+              The cornerstone of Vollx' proficiency lies in its multifaceted
               approach encompassing cutting-edge management paradigms, incisive
               analytical frameworks, and a robust understanding of market
               dynamics. Leveraging a talented cadre of industry experts and
-              data-driven methodologies, Gatlings orchestrates a symphony of
+              data-driven methodologies, Vollx orchestrates a symphony of
               innovation to optimize performance, drive growth, and foster
               sustained success for businesses.
             </p>
@@ -283,10 +283,10 @@ function Carrer() {
             />
 
             <p>
-              The spectrum of Gatlings' services spans the gamut of corporate
+              The spectrum of Vollx' services spans the gamut of corporate
               requisites. From astute market analysis and strategic planning to
               operational optimization and seamless integration of technological
-              advancements, Gatlings serves as a holistic partner, facilitating
+              advancements, Vollx serves as a holistic partner, facilitating
               businesses at every step of their journey towards excellence.
             </p>
 

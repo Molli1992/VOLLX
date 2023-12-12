@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../imagenes/logo-blanco-removebg-preview.png";
+import Logo from "../../imagenes/logo-Vollx-removebg-preview.png";
 import "./header.css";
 
 function Header() {
