@@ -40,7 +40,7 @@ function Header() {
         </Link>
 
         <Link to={"/carrer"} className="link-header">
-          Carrer
+          Carreer
         </Link>
 
         <Link to={"/contact"} className="link-header">

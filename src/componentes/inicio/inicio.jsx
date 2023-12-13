@@ -45,7 +45,7 @@ function Inicio() {
           More...
         </h1>
 
-        <button className="button-top" onClick={routeContactOnClick}>Contat Us</button>
+        <button className="button-top" onClick={routeContactOnClick}>Contact Us</button>
       </div>
 
       <div className="container-inicio-2">
