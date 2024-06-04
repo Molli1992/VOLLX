@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Logo from "../../imagenes/logo-Vollx-removebg-preview.png";
 import "./header.css";
 
 function Header() {
   const [openClose, setOpenClose] = useState(false);
+  const navigate = useNavigate();
 
   const onClickOpenClose = () => {
     const divResponsive = document.getElementById("responive-header-id");
@@ -24,10 +25,14 @@ function Header() {
     divResponsive.style.display = "none";
   };
 
+  const onClickLogo = () => {
+    navigate("/");
+  };
+
   return (
     <div className="body-header">
       <div className="container-header-1">
-        <img src={Logo} alt="Logo-Empresa" />
+        <img src={Logo} alt="Logo-Empresa" onClick={onClickLogo} />
       </div>
 
       <div className="container-header-2">
@@ -78,7 +83,11 @@ function Header() {
         </div>
       </div>
 
-      <div className="container-responsive-header" id="responive-header-id" onClick={onClickLinkResponsive}>
+      <div
+        className="container-responsive-header"
+        id="responive-header-id"
+        onClick={onClickLinkResponsive}
+      >
         <Link to={"/"} className="link-header-responsive">
           Home
         </Link>

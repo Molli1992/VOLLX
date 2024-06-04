@@ -97,7 +97,7 @@ function Contacto() {
                 </div>
                 <div className="contact-text">
                   <h3 className="contact-h3">Mail</h3>
-                  <p className="contact-p-2">contact@realtynigiri.com</p>
+                  <p className="contact-p-2">vollxcons@gmail.com </p>
                 </div>
               </div>
             </div>
