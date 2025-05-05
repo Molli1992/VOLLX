@@ -46,9 +46,10 @@
   margin-bottom: 30px;
 }
 
-.contrainer-nosotros-2 img{
-    margin-bottom: 100px;
-    width: 90%;
+.contrainer-nosotros-2 img {
+  margin-bottom: 100px;
+  width: 90%;
+  height: 600px;
 }
 
 .contrainer-nosotros-2 p {
@@ -71,35 +72,56 @@
   color: #ffffff;
 }
 
-.container-nosotros-3 img{
-    margin-bottom: 50px;
-    width: 90%;
+.container-nosotros-3 img {
+  margin-bottom: 50px;
+  width: 90%;
+  height: 600px;
 }
 
-.container-nosotors-card{
-    width: 100%;
-    height: 100%;
-    display: block;
+.container-nosotors-card {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
-.card-nostros{
-    display: block;
-    width: 100%;
-    margin-bottom: 60px;
-    border-bottom: 1px solid rgba(242, 242, 242, 0.3);
-    text-align: center;
+.card-nostros {
+  display: block;
+  width: 100%;
+  margin-bottom: 60px;
+  border-bottom: 1px solid rgba(242, 242, 242, 0.3);
+  text-align: center;
 }
 
-.card-nostros h2{
-    color: rgba(242, 242, 242, 0.7);
-    font-weight: bold;
-    font-size: 35px;
-    margin-bottom: 15px;
+.card-nostros h2 {
+  color: rgba(242, 242, 242, 0.7);
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 15px;
 }
 
-.card-nostros p{
-    color: rgba(242, 242, 242, 0.7);
-    font-size: 18px;
+.card-nostros p {
+  color: rgba(242, 242, 242, 0.7);
+  font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+  .contrainer-nosotros-2 img {
+    height: 500px;
+  }
+
+  .container-nosotros-3 img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 650px) {
+  .contrainer-nosotros-2 img {
+    height: 400px;
+  }
+
+  .container-nosotros-3 img {
+    height: 400px;
+  }
 }
 
 @media (max-width: 439px) {
